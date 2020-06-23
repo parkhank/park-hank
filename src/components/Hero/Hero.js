@@ -18,15 +18,15 @@ render() {
         <div className="hero__divider"></div>
         <div className="hero__socials">
           <div className="hero__socials-line">
-            <img className="hero__socials-icon" src={githubIcon}/>
+            <img className="hero__socials-icon" src={githubIcon} alt="github icon"/>
             <a href="https://github.com/parkhank">/parkhank</a>
           </div>
           <div className="hero__socials-line">
-            <img className="hero__socials-icon" src={linkedinIcon}/>
+            <img className="hero__socials-icon" src={linkedinIcon} alt="linkedin icon"/>
             <a href="https://linkedin.com/in/parkhank">/parkhank</a>
           </div>
           <div className="hero__socials-line">
-            <img className="hero__socials-icon" src={emailIcon}/>
+            <img className="hero__socials-icon" src={emailIcon} alt="email icon"/>
             <p>park.hty@gmail.com</p>
           </div>
         </div>
