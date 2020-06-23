@@ -1,0 +1,8 @@
+// breakpoint media query
+@mixin media($width) {
+  @media (min-width: $width) {
+    @content;
+  }
+}
+// breakpoint
+$tabdesk: 700px;

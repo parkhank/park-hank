@@ -1,3 +1,6 @@
+@import '../../partials/_mixins.scss';
+@import '../../partials/_colors.scss';
+
 .hero {
   height: 500px;
   background-image: url("../../assets/hero.jpg");
@@ -8,7 +11,7 @@
     height: 100vh;
     width: 100vw;
     background-color: #FFFFFF80;
-    color: #524e61;
+    color: $primary-dark;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,22 +19,30 @@
   &__header {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    font-size: 60px;
+    align-itemS: flex-end;
+    font-size: 40px;
     font-weight: 400;
-    width: 150px;
+    @include media($tabdesk) {
+      font-size: 60px;
+    }
   }
   &__divider {
-    height: 200px;
+    height: 120px;
     width: 1px;
-    border: 1px solid #524e61;
+    border: 1px solid $primary-dark;
     margin: 0px 20px;
+    @include media($tabdesk) {
+      height: 200px;
+    }
   }
   &__socials {
-    width: 150px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-size: 13px;
+    @include media($tabdesk) {
+      font-size: 16px;
+    }
   }
   &__socials-line {
     display: flex;

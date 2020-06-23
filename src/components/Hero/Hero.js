@@ -27,7 +27,7 @@ render() {
           </div>
           <div className="hero__socials-line">
             <img className="hero__socials-icon" src={emailIcon} alt="email icon"/>
-            <p>park.hty@gmail.com</p>
+            <a href="mailto:park.hty@gmail.com">park.hty@gmail.com</a>
           </div>
         </div>
       </div>
