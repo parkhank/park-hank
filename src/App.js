@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.scss';
+import './partials/_resets.scss';
+
+import Hero from './components/Hero';
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Hank Park</h1>
-      <p>Testing git push deploy</p>
+      <Hero />
     </div>
   );
 }
