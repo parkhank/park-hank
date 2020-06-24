@@ -57,11 +57,11 @@ render() {
         </div>
         <div className="inventree__text">
           <p className="inventree__text-left">challenges:</p>
-          <p className="inventree__text-right">first time with relational databases and mySQL, first time working with a client guiding the process with their own wants and needs from the app</p>
+          <p className="inventree__text-right">first time with relational databases, ORM, and mySQL, as well as first time working with a client guiding the process with their own wants and needs from the app</p>
         </div>
         <div className="inventree__text">
           <p className="inventree__text-left">tech stack:</p>
-          <p className="inventree__text-right">mySQL, Sass, Javascript, Node.js, React.js, express.js</p>
+          <p className="inventree__text-right">mySQL(ORM), Sass, Javascript, Node.js, React.js, express.js</p>
         </div>
       </div>
     </div>
