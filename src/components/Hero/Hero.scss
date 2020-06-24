@@ -15,6 +15,7 @@
     align-items: flex-end;
     font-size: 40px;
     font-weight: 400;
+    width: 125px;
     @include media($tabdesk) {
       font-size: 60px;
     }
@@ -32,7 +33,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 13px;
+    font-size: 11px;
+    width: 125px;
     @include media($tabdesk) {
       font-size: 16px;
     }
@@ -48,14 +50,12 @@
     margin-right: 5px;
   }
   &__icon {
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
-    height: 10px;
+    position: absolute;
+    bottom: 175px;
+    height: 20px;
     @include media($tabdesk) {
-      bottom: 10px;
-      right: 10px;
       height: 20px;
+      bottom: 125px;
     }
   }
 }

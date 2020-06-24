@@ -31,13 +31,14 @@
     }
   }
   &__icon {
-    height: 30px;
+    height: 20px;
     @include media($tabdesk) {
-      height: 40px;
+      height: 25px;
     }
   }
   &__screenshot {
     margin-top: 16px;
+    margin-bottom: 8px;
     width: 280px;
     border-radius: 16px;
     box-shadow: 0px 0px 10px 1px $primary-dark;
@@ -47,7 +48,7 @@
   }
   &__description {
     width: 280px;
-    margin-top: 16px;
+    margin-top: 24px;
     @include media($tabdesk) {
       width: 400px;
     }

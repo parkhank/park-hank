@@ -8,6 +8,8 @@ import express from '../../assets/expressjs.png';
 import react from '../../assets/react.png';
 import mysql from '../../assets/mysql.png';
 import sass from '../../assets/sass.png';
+import knex from '../../assets/knex.png';
+import bookshelf from '../../assets/bookshelf.png';
 
 class Inventree extends React.Component {
 
@@ -23,6 +25,14 @@ render() {
           <img
             src={mysql}
             alt="mysql logo"
+            className="inventree__icon"/>
+          <img
+            src={knex}
+            alt="knex logo"
+            className="inventree__icon"/>
+          <img
+            src={bookshelf}
+            alt="bookshelf logo"
             className="inventree__icon"/>
           <img
             src={sass}
@@ -61,7 +71,7 @@ render() {
         </div>
         <div className="inventree__text">
           <p className="inventree__text-left">tech stack:</p>
-          <p className="inventree__text-right">mySQL(ORM), Sass, Javascript, Node.js, React.js, express.js</p>
+          <p className="inventree__text-right">mySQL, Knex.js, Bookshelf.js, Sass, Javascript, Node.js, React.js, express.js</p>
         </div>
       </div>
     </div>
