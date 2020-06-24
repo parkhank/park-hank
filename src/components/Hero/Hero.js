@@ -4,6 +4,7 @@ import './Hero.scss';
 import githubIcon from '../../assets/github.svg';
 import linkedinIcon from '../../assets/linkedin.png';
 import emailIcon from '../../assets/email.png';
+import arrowDown from '../../assets/arrowdown.png';
 
 class Hero extends React.Component {
 
@@ -29,6 +30,10 @@ render() {
           <a href="mailto:park.hty@gmail.com">park.hty@gmail.com</a>
         </div>
       </div>
+      <img
+        className="hero__icon"
+        src={arrowDown}
+        alt="arrow down"/>
     </div>
   )
 }
