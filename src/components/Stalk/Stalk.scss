@@ -1,0 +1,82 @@
+@import '../../partials/_mixins.scss';
+@import '../../partials/_colors.scss';
+
+.stalk {
+  width: 100%;
+  color: $primary-dark;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+  @include media($tabdesk) {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  &__visuals {
+    display: flex;
+    flex-direction: column;
+    @include media($tabdesk) {
+      margin-right: 48px;
+    }
+  }
+  &__icons {
+    display: flex;
+    width: 280px;
+    margin-top: 12px;
+    justify-content: center;
+    @include media($tabdesk) {
+      width: 400px;
+    }
+  }
+  &__icon {
+    height: 20px;
+    margin: 0px 12px;
+    @include media($tabdesk) {
+      height: 25px;
+    }
+  }
+  &__screenshot {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    width: 280px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px 1px $primary-dark;
+    @include media($tabdesk) {
+      width: 400px;
+    }
+  }
+  &__description {
+    width: 280px;
+    margin-top: 24px;
+    @include media($tabdesk) {
+      width: 400px;
+    }
+  }
+  &__text {
+    font-size: 12px;
+    display: flex;
+    padding-bottom: 8px;
+    align-items: center;
+    @include media($tabdesk) {
+      font-size: 20px;
+      font-weight: 300;
+      padding-bottom: 16px;
+    }
+    &-left {
+      width: 100px;
+      @include media($tabdesk) {
+        width: 120px;
+      }
+    }
+    &-right {
+      width: 200px;
+      font-size: 10px;
+      @include media($tabdesk) {
+        font-size: 14px;
+        width: 250px;
+      }
+    }
+  }
+}
